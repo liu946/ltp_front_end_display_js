@@ -1,0 +1,22 @@
+{
+  "name": "ltp_front_end_display",
+  "version": "1.0.0",
+  "description": "ltp前端测试项目",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liu946/ltp_front_end_display_js.git"
+  },
+  "author": "liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liu946/ltp_front_end_display_js/issues"
+  },
+  "homepage": "https://github.com/liu946/ltp_front_end_display_js",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

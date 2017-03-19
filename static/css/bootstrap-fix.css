@@ -1,0 +1,48 @@
+/*bootstrap fix*/
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+  color:#0061c2;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  color: #ffffff;
+  background-color: #08c;;
+}
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
+    padding:7px 6px;
+    text-indent:1px;
+    border:1px solid #ccc;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none
+}
+.pagination ul>li>a {
+    color:#428bca;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-left-width:0
+}
+.pagination ul>li>a:hover {
+    background-color:#ecf0f1
+}
+.dropdown-menu {
+    background-color:#ffffff;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.input-append input, .input-prepend input, .input-append select, .input-prepend select, .input-append .uneditable-input, .input-prepend .uneditable-input {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;
+}
+.input-append .add-on, .input-prepend .add-on {
+    padding: 7px 10px;
+    background-color: #ecf0f1 !important;
+    border: 1px solid #ccc !important;
+}
