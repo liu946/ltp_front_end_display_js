@@ -4,6 +4,8 @@
   "description": "ltp前端测试项目",
   "main": "index.html",
   "scripts": {
+    "init": "npm i -g http-server",
+    "start": "nohup http-server . -P http://localhost:12345 >> logs/$(date +%Y-%m-%d-%H%M).log &",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
